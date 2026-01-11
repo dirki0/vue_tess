@@ -1,7 +1,5 @@
 # chidi.art
 
-> A beautiful website
-
 This is the homepage 'chidi.art'.  
 It's a portfolio site.
 
