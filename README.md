@@ -1,29 +1,68 @@
-## AWS Amplify Vue.js Starter Template
+# chidi.art
 
-This repository provides a starter template for creating applications using Vue.js and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
+> A beautiful website
 
-## Overview
+This is the homepage 'chidi.art'.  
+It's a portfolio site.
 
-This template equips you with a foundational Vue application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
+## ✨ Features
 
-## Features
+- 🌍 **Internationalization** - Native i18n support for multi-language docs
+- 🎨 **Beautiful Design** - Clean, modern documentation theme
+- 📱 **Responsive** - Mobile-first responsive design  
+- 🌙 **Dark Mode** - Built-in dark/light mode support
+- 🔍 **Search** - Full-text search functionality per language
+- 📝 **Markdown Enhanced** - Extended markdown with custom components
+- 🎨 **Customizable** - Easy theming and brand customization
+- ⚡ **Fast** - Optimized for performance with Nuxt 4
+- 🔧 **TypeScript** - Full TypeScript support
 
-- **Authentication**: Setup with Amazon Cognito for secure user authentication.
-- **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
-- **Database**: Real-time database powered by Amazon DynamoDB.
+## 🚀 Quick Start
 
-## Deploying to AWS
+```bash
+# Install dependencies
+npm install
 
-For detailed instructions on deploying your application, refer to the [deployment section](https://docs.amplify.aws/vue/start/quickstart/#deploy-a-fullstack-app-to-aws) of our documentation.
+# Start development server
+npm run dev
+```
 
 
-## Security
+```
+co/
+├── content/             # Your markdown content
+│   ├── en/              # English content
+│   │   ├── index.md     # English homepage
+│   └── de/              # Deutsche content
+│       ├── index.md     # Deutsche homepage
+├── public/              # Static assets
+├── nuxt.config.ts       # Nuxt configuration with i18n setup
+└── package.json         # Dependencies and scripts
+```
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+### Content Structure
 
-## License
+The content is organized by language, making it easy to manage translations:
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
 
-"x
-t
+## ⚡ Built with
+
+- [Nuxt 4](https://nuxt.com) - The web framework
+- [Nuxt Content](https://content.nuxt.com/) - File-based CMS
+- [Nuxt i18n](https://i18n.nuxt.com/) - Internationalization
+- [Nuxt UI](https://ui.nuxt.com) - UI components
+- [Nuxt Image](https://image.nuxt.com/) - Optimized images
+- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS
+- [Docus Layer](https://www.npmjs.com/package/docus) - Documentation theme
+
+
+## 🚀 Deployment
+
+Build for production:
+
+```bash
+npm run build
+```
+
+The built files will be in the `.output` directory, ready for deployment to any hosting provider that supports Node.js.
+
