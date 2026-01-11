@@ -2,7 +2,7 @@
 
 This is the homepage 'chidi.art'.  
 It's a portfolio site.
-x
+xc
 ## ✨ Features
 
 - 🌍 **Internationalization** - Native i18n support for multi-language docs
